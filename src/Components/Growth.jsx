@@ -23,7 +23,7 @@ const Growth = () => {
             scrollTrigger: {
               trigger: div,
               start: "top 90%",
-              end: "bottom 80%",
+              end: "bottom 50%",
               scrub: true,
             },
           }

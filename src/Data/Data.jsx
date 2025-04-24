@@ -134,3 +134,35 @@ export const GrowthDiv = [
     color: "bg-[#fb6f92]"
   },
 ]
+
+// Marquee Div Text
+
+export const MarGridText = "Kind Words";
+
+// Grid Data
+
+export const GridData = [
+  {
+    heading: "LinkedIn Testimonials",
+  },
+  {
+    heading: "Omkar Shinde",
+    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+  },
+  {
+    heading: "Omkar Shinde",
+    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+  },
+  {
+    heading: "Omkar Shinde",
+    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+  },
+  {
+    heading: "Omkar Shinde",
+    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+  },
+  {
+    heading: "Omkar Shinde",
+    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+  }
+]

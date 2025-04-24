@@ -37,6 +37,7 @@ const Home = () => {
       <IntroSection />
       <WorkSec />
       <Consider />
+      {/* <TextHover /> */}
       <Growth />
       <GridSec />
       <BottomSlide />
@@ -45,4 +46,3 @@ const Home = () => {
 }
 
 export default Home;
-      {/* <TextHover /> */}
