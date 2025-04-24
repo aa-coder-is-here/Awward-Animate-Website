@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const BottomSlide = () => {
   return (
-    <div className="w-full h-10 fixed bottom-0 left-0 flex justify-center items-center bg-indigo-50">
+    <div className="w-full h-10 fixed z-1 bottom-0 left-0 flex justify-center items-center bg-white">
       <Marquee autoFill speed={80}>
         {
           Array(1).fill("").map((_,index)=>{

@@ -117,7 +117,7 @@ const Navbar = () => {
   },[isOpen])
   return (
     <>
-    <div className="nav w-full h-20 bg-white px-4 md:px-10 py-4 md:py-5">
+    <div className="nav w-full h-20 bg-[#f1f2f6] px-4 md:px-10 py-4 md:py-5">
       <div className="main w-full h-full bg-black rounded-full text-white md:px-10 px-5 flex justify-between items-center" ref={wholeDiv} >
          <div className="font-[800] text-3xl tracking-wider cursor-not-allowed"
          onMouseEnter={handleHover}
@@ -151,7 +151,7 @@ const Navbar = () => {
     </div>
 
     {/* Mobile Header  */}
-    <div className={`w-full h-screen bg-black fixed top-0 left-0 px-12 py-6 origin-right scale-x-0`} ref={NavBar}>
+    <div className={`w-full h-screen bg-black fixed top-0 left-0 px-12 py-6 origin-right scale-x-0 z-[2]`} ref={NavBar}>
       {/* Icons wala Span */}
       <span ref={cross} className=" text-white text-3xl cursor-pointer flex justify-end origin-center" onClick={()=>{
             setOpen(!isOpen)
