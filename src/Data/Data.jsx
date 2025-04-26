@@ -166,3 +166,12 @@ export const GridData = [
     des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
   }
 ]
+
+export const TextDiv = [
+  {Text: "Companies have"},
+  {Text: "SEEN THE POWER OF"},
+  {Text: "USER CENTERED"},
+  {Text: "DESIGN —YOUR NEXT"},
+  {Text: "BIG SUCCESS STORY"},
+  {Text: "STartS HERE!"},  
+]

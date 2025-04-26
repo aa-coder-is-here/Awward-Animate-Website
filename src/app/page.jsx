@@ -1,6 +1,7 @@
 "use client";
 import BottomSlide from "@/Components/Bottom";
 import Consider from "@/Components/Consider";
+import Contact from "@/Components/Contact";
 import Cursor from "@/Components/Cursor";
 import GridSec from "@/Components/GridSec";
 import Growth from "@/Components/Growth";
@@ -37,9 +38,10 @@ const Home = () => {
       <IntroSection />
       <WorkSec />
       <Consider />
-      {/* <TextHover /> */}
+      <TextHover />
       <Growth />
       <GridSec />
+      <Contact />
       <BottomSlide />
     </div>
   )
