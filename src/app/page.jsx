@@ -1,4 +1,5 @@
 "use client";
+import { Analytics } from "@vercel/analytics/react"
 import BottomSlide from "@/Components/Bottom";
 import Consider from "@/Components/Consider";
 import Contact from "@/Components/Contact";

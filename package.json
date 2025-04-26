@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "analytics": "github:vercel/analytics",
     "gsap": "^3.12.7",
     "lenis": "^1.3.1",
     "next": "15.2.4",
