@@ -44,6 +44,7 @@ const Home = () => {
       <GridSec />
       <Contact />
       <BottomSlide />
+      <Analytics />
     </div>
   )
 }
