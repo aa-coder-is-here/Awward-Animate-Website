@@ -1,5 +1,6 @@
 "use client";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import BottomSlide from "@/Components/Bottom";
 import Consider from "@/Components/Consider";
 import Contact from "@/Components/Contact";
@@ -45,6 +46,7 @@ const Home = () => {
       <Contact />
       <BottomSlide />
       <Analytics />
+      <SpeedInsights />
     </div>
   )
 }
