@@ -16,6 +16,7 @@ import WorkSec from "@/Components/WorkSec";
 import Lenis from "lenis";
 import localFont from 'next/font/local'
 import { useEffect } from "react";
+import PortCard from "@/Components/PortCards";
 const clash = localFont({
   src: './fonts/ClashDisplay-Variable.ttf',
   display: 'swap',
@@ -42,6 +43,7 @@ const Home = () => {
       <Consider />
       <TextHover />
       <Growth />
+      <PortCard />
       <GridSec />
       <Contact />
       <BottomSlide />

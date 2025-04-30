@@ -18,7 +18,9 @@ const GridSec = () => {
       {
         scale: 1,
         opacity: 1,
-        stagger: 0.1,
+        stagger: 0.4,
+        duration: 0.2,
+        ease: "power3.inOut",
         scrollTrigger: {
           trigger: gridDivs.current[0],
           start: "top 90%",
@@ -30,9 +32,9 @@ const GridSec = () => {
     
   })
   return (
-    <div className="w-full h-auto">
+    <div className="w-full h-auto bg-[#f1f2f6]">
       {/* Marquee */}
-      <div className="w-full h-[70vh] flex justify-center items-end">
+      <div className="w-full h-[20vh] flex justify-center items-end">
         <div className="w-full h-32 bg-[#ffe6ec] text-[#123c10] flex items-center text-7xl font-[500] overflow-hidden">
           <Marquee autoFill speed={120} className="overflow-hidden">
             <span className="mx-4">{MarGridText}</span>

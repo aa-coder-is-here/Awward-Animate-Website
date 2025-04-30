@@ -175,3 +175,37 @@ export const TextDiv = [
   {Text: "BIG SUCCESS STORY"},
   {Text: "STartS HERE!"},  
 ]
+
+// PrtFolio Card Data
+
+export const CardPortHead = {
+  heading: "PORTFOLIO",
+  para: "Recognized by industry leaders, this portfolio has earned acclaim for both design and execution by Awwwards and CSS Design Awards Jury"
+} 
+
+export const DataPort = [
+  {
+    id: "1",
+    heading: "TecH",
+    aphla: "T",
+    innerFeature: ["WebGL Development","Web Development","Unity/Unreal","Interactive Installations","VR/AR"]
+  },
+  {
+    id: "2",
+    heading: "TecH",
+    aphla: "T",
+    innerFeature: ["WebGL Development","Web Development","Unity/Unreal","Interactive Installations","VR/AR"]
+  },
+  {
+    id: "3",
+    heading: "TecH",
+    aphla: "T",
+    innerFeature: ["WebGL Development","Web Development","Unity/Unreal","Interactive Installations","VR/AR"]
+  },
+  {
+    id: "4",
+    heading: "TecH",
+    aphla: "T",
+    innerFeature: ["WebGL Development","Web Development","Unity/Unreal","Interactive Installations","VR/AR"]
+  },
+]
