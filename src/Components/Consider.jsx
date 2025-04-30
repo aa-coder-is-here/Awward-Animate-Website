@@ -34,8 +34,8 @@ const Consider = () => {
       ease: "power3.inOut",
       scrollTrigger: {
         trigger: headingIs.current,
-        start: "top 40%",
-        end: "bottom 40%",
+        start: "top 90%",
+        end: "bottom 90%",
       }
     })
     card1.current.forEach((card)=>{
