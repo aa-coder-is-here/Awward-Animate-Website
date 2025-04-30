@@ -2,8 +2,9 @@
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";
 import { Logo, NavbarContent } from "@/Data/Data"
-import { use, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen , setOpen] = useState(false);
@@ -115,6 +116,18 @@ const Navbar = () => {
     }
     console.log("I'm Loaded Fuck Yeah")
   },[isOpen])
+  const checkHref = (index) => {
+    switch (index) {
+      case 0:
+        return "#work"
+      case 1: 
+        return "#con"
+      case 2: 
+        return "#gro"
+      default:
+        return ""
+    }
+  }
   return (
     <>
     <div className="nav w-full h-20 bg-[#f1f2f6] px-4 md:px-10 py-4 md:py-5">
@@ -129,12 +142,12 @@ const Navbar = () => {
          {
            NavbarContent.map((curElem,index)=>{
              return (
-               <div key={index} className="cursor-pointer uppercase" 
+               <Link href={checkHref(index)} key={index} className="cursor-pointer uppercase" 
                onMouseEnter={handleHover}
                onMouseLeave={handleHoverEnd}
                >
                     {curElem}
-                </div>
+                </Link>
               ) 
             })
           }

@@ -48,7 +48,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-[#f1f2f6] h-auto mb-32">
+    <section className="w-full min-h-screen bg-[#f1f2f6] h-auto mb-32">
       {/* Heading Section */}
       <div className="w-full h-[50vh] flex flex-col px-24 justify-center">
         {
@@ -74,7 +74,7 @@ const Cards = () => {
           ))
         }
       </div>
-    </div>
+    </section>
   );
 }
 

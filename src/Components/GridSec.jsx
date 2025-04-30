@@ -10,7 +10,8 @@ gsap.registerPlugin(ScrollTrigger);
 const GridSec = () => {
   const gridDivs = useRef([]);
   useEffect(()=>{
-    gsap.fromTo(gridDivs.current,
+    const tl = gsap.timeline();
+    tl.fromTo(gridDivs.current,
       {
         scale: 0,
         opacity: 0,

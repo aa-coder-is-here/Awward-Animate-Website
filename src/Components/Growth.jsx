@@ -33,7 +33,7 @@ const Growth = () => {
   }, []);
 
   return (
-    <div className="w-full min-h-screen h-auto bg-[#f1f2f6] overflow-hidden">
+    <section id="gro" className="w-full min-h-screen h-auto bg-[#f1f2f6] overflow-hidden">
       {/* Heading Section */}
       <div className="w-full h-[70vh] md:h-[75vh] flex md:justify-center justify-end items-center flex-col gap-4 py-20 md:py-0">
         <span className="text-4xl md:text-9xl uppercase font-semibold">{GrowtHeading}</span>
@@ -74,7 +74,7 @@ const Growth = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

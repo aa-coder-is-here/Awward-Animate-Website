@@ -81,7 +81,7 @@ const Consider = () => {
   }, []);
 
   return (
-    <div className="w-full h-auto overflow-hidden bg-[#f1f2f6]" ref={container}>
+    <section id="con" className="w-full h-auto overflow-hidden bg-[#f1f2f6]" ref={container}>
       <div className="w-full h-[60vh] md:h-screen flex justify-center items-center">
         <span ref={headingIs} className="w-full flex justify-center min-h-[200px] text-4xl md:text-9xl font-semibold uppercase">{ConsiderMeText}</span>
       </div>
@@ -101,7 +101,7 @@ const Consider = () => {
         })
       }
         </div>
-      </div>
+      </section>
   );
 };
 
