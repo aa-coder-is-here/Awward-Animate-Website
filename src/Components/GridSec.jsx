@@ -1,37 +1,9 @@
 import { GridData, MarGridText } from "@/Data/Data";
 import EmojiMar from "@/SubComponents/Emoji";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useEffect, useRef } from "react";
 import Marquee from "react-fast-marquee";
 
-gsap.registerPlugin(ScrollTrigger);
-
 const GridSec = () => {
-  const gridDivs = useRef([]);
-  useEffect(()=>{
-    const tl = gsap.timeline();
-    tl.fromTo(gridDivs.current,
-      {
-        scale: 0,
-        opacity: 0,
-      },
-      {
-        scale: 1,
-        opacity: 1,
-        stagger: 0.4,
-        duration: 0.2,
-        ease: "power3.inOut",
-        scrollTrigger: {
-          trigger: gridDivs.current[0],
-          start: "top 90%",
-          end: "bottom 90%",
-          scrub: 1,
-        }
-      }
-    );
-    
-  })
+
   return (
     <div className="w-full h-auto bg-[#f1f2f6]">
       {/* Marquee */}
@@ -50,7 +22,6 @@ const GridSec = () => {
           return (
             <div
               key={index}
-              ref={(el) => gridDivs.current[index] = el}
               className={`w-full md:h-full ${
                 index === 0 ? "bg-white text-black" : "bg-black text-white"
               } flex flex-col justify-center px-12 gap-4 md:gap-6 py-20`}
