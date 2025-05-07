@@ -1,4 +1,5 @@
 import gsap from "gsap";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 const Contact = () => {
@@ -39,7 +40,9 @@ const Contact = () => {
     <div className="w-full h-[50vh] md:h-[100vh] bg-[#f1f2f6] flex flex-col items-center justify-between md:py-12 pt-6 relative">
       {/* Lets Talk Button */}
       <div className="w-full h-24 md:h-full px-12 md:px-32">
-        <button className="w-full h-full border-[4px] border-[rgb(78,75,75)] rounded-2xl md:rounded-[60px] text-3xl md:text-[160px] text- uppercase font-[700] transition-colors transition-border ease-in-out duration-300 hover:bg-black hover:text-white hover:border-none cursor-pointer">Let's Talk</button>
+        <button className="w-full h-full border-[4px] border-[rgb(78,75,75)] rounded-2xl md:rounded-[60px] text-3xl md:text-[160px] text- uppercase font-[700] transition-colors transition-border ease-in-out duration-300 hover:bg-black hover:text-white hover:border-none cursor-pointer">
+          <Link href="http://linkedin.com/in/im-ali-arif">Let's Talk</Link>
+        </button>
       </div>
 
       <div className="w-full h-full flex justify-center items-end relative overflow-hidden">
@@ -49,7 +52,7 @@ const Contact = () => {
           {
             Array(2).fill("").map((_,index)=>{
               return (
-                <div className="relative w-32 h-32 md:w-48 md:h-48 bg-white rounded-full flex justify-center items-center translate-y-2/4 md:translate-y-3/4">
+                <div className="relative w-32 h-32 md:w-48 md:h-48 bg-white rounded-full flex justify-center items-center translate-y-2/4 md:translate-y-3/4" key={index}>
                     <div className="w-3/4 h-3/4 rounded-full bg-black flex justify-center items-center relative">
                       <div ref={(el)=> eyes.current[index] = el} className="w-6 h-6 bg-white rounded-full realtive"></div>
                     </div>

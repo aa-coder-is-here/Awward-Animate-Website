@@ -32,7 +32,7 @@ const NameSec = () => {
     })
   }, []);
   return (
-    <div ref={ParentDiv} className="w-full h-[95vh] md:h-[180vh] flex flex-col bg-[#f1f2f6]">
+    <div ref={ParentDiv} className="w-full h-[95vh] md:h-[180vh] flex flex-col bg-[#f1f2f6] overflow-hidden md:overflow-visible">
       {/* The Name Section */}
       <div
         ref={NameDiv}
@@ -54,7 +54,7 @@ const NameSec = () => {
         {/* The Three Model */}
         <div className="md:w-1/2 w-full flex flex-col items-center gap-1">
         <span className="text-2xl uppercase md:text-5xl text-center font-semibold">{scrollDatas.heading}</span>
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-[100vh] md:h-full">
            <Globe />
         </div>
         </div>

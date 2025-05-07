@@ -92,7 +92,7 @@ const Navbar = () => {
       scaleX: 0,
     },{
       scaleX: 1,
-      duration: 0.8,
+      duration: 0.5,
     }).fromTo(cross.current,{
       opacity: 0,
       y: -20,
@@ -105,7 +105,7 @@ const Navbar = () => {
     },{
       y: 0,
       opacity: 1,
-      stagger: 0.3,
+      stagger: 0.2,
     })
   },[]);
   useEffect(()=>{
@@ -176,7 +176,9 @@ const Navbar = () => {
         {
           NavbarContent.map((curElem,index)=>{
             return <span key={index} className="text-[#C2C2C2] font-[500] text-3xl uppercase tracking-wide">
+              <Link href={checkHref(index)} onClick={()=>setOpen(!isOpen)}>
               {curElem}
+              </Link>
             </span>
           })
         }
