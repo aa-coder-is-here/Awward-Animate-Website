@@ -11,6 +11,9 @@
 *{
   font-family: "clash"
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: #f1f2f6;
 }

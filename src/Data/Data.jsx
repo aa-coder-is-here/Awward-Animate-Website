@@ -15,7 +15,7 @@ export const scrollingSectionData = {
 }
 
 export const scrollDatas = {
-  heading: "Tech Stack",
+  heading: "Creative Developer with a Global Vision",
 }
 
 // Intro 

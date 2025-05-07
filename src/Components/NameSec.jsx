@@ -3,7 +3,7 @@ import { NameSectionData, scrollDatas, scrollingSectionData } from "@/Data/Data"
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
-import { IconCloudDemo } from "./IconsCloud";
+import { Globe } from "./magicui/globe";
 
 gsap.registerPlugin(ScrollTrigger);
 const NameSec = () => {
@@ -16,7 +16,7 @@ const NameSec = () => {
         trigger: NameDiv.current,
         start: "top 40%",
         endTrigger: ParentDiv.current,
-        end: window.innerWidth > 600 ? "bottom+=260 bottom" : "bottom+=500 bottom",
+        end: window.innerWidth > 600 ? "bottom+=360 bottom" : "bottom+=500 bottom",
         scrub: 99,
         pinSpacing: false,
         pinSpacer: false,
@@ -53,9 +53,9 @@ const NameSec = () => {
 
         {/* The Three Model */}
         <div className="md:w-1/2 w-full flex flex-col items-center gap-1">
-        <span className="text-5xl uppercase md:text-8xl font-semibold">{scrollDatas.heading}</span>
-        <div>
-           <IconCloudDemo />
+        <span className="text-2xl uppercase md:text-5xl text-center font-semibold">{scrollDatas.heading}</span>
+        <div className="relative w-full h-full">
+           <Globe />
         </div>
         </div>
       </div>
