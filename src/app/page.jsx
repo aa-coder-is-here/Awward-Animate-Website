@@ -17,7 +17,7 @@ import Lenis from "lenis";
 import localFont from 'next/font/local'
 import { useEffect, useState } from "react";
 import PortCard from "@/Components/PortCards";
-import Loader from "@/Components/Loader";
+// import Loader from "@/Components/Loader";
 const clash = localFont({
   src: './fonts/ClashDisplay-Variable.ttf',
   display: 'swap',
@@ -25,7 +25,7 @@ const clash = localFont({
 })
 
 const Home = () => {
-  const [ loading , setLoading ] = useState(true);
+  // const [ loading , setLoading ] = useState(true);
   useEffect(()=>{
     const lenis = new Lenis();
     const raf = (time) => {
@@ -34,23 +34,23 @@ const Home = () => {
     }
     requestAnimationFrame(raf);
 
-    const handleLoad = () => setLoading(false);
+    // const handleLoad = () => setLoading(false);
 
-    if(document.readyState === "complete")
-       setLoading(false);
-    else
-      window.addEventListener("load", handleLoad);
+    // if(document.readyState === "complete")
+    //    setLoading(false);
+    // else
+    //   window.addEventListener("load", handleLoad);
 
-    return () => window.removeEventListener("load", handleLoad);
+    // return () => window.removeEventListener("load", handleLoad);
   },[])
 
-  if (loading) {
-    return (
-      <div className="transition-all duration-75 flex items-center justify-center h-screen bg-black text-white text-2xl">
-        <Loader />
-      </div>
-    );
-  }
+  // if (loading) {
+  //   return (
+  //     <div className="transition-all duration-75 flex items-center justify-center h-screen bg-black text-white text-2xl">
+  //       <Loader />
+  //     </div>
+  //   );
+  // }
   
 
   return (

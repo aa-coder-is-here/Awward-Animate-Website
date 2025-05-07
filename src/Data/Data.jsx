@@ -3,7 +3,7 @@ export const Logo = "A.L.I";
 // Navbar
 export const NavbarContent = ["Projects" , "Why Me" , "Achievements"];
 // Bottom Section Text
-export const BottomText = "Hello It's Ali";
+export const BottomText = "Hello It's me Ali";
 // Marquee cursor Text
 export const MarqueeText = "View Projects";
 // Name Section
@@ -12,6 +12,10 @@ export const NameSectionData = "Ali . Arif";
 export const scrollingSectionData = {
   line1: "Welcome to my portfolio! My designs",
   line2: "have driven an impact of over $850k+",
+}
+
+export const scrollDatas = {
+  heading: "Tech Stack",
 }
 
 // Intro 
@@ -26,38 +30,42 @@ export const workHeading = "Some Featured Work"
 export const WorkSection = [
   {
     titleNum: "[ 01 ]",
-    title: "Calm Studios",
+    title: "PuroPelle",
     btn: "View More",
     img: "images/work1.png",
-    year: "2024"
+    year: "2024",
+    link: "https://www.puropelle.com/"
   },
   {
     titleNum: "[ 02 ]",
     title: "EBCO",
     btn: "View More",
     img: "images/work2.png",
-    year: "2024"
+    year: "2024",
   },
   {
     titleNum: "[ 03 ]",
     title: "Fintori",
     btn: "View More",
     img: "images/work3.png",
-    year: "2024"
+    year: "2024",
+    link: ""
   },
   {
     titleNum: "[ 04 ]",
     title: "Carewell ",
     btn: "View More",
     img: "images/work4.png",
-    year: "2024"
+    year: "2024",
+    link: ""
   },
   {
     titleNum: "[ 05 ]",
     title: "ECommPulse",
     btn: "View More",
     img: "images/work5.png",
-    year: "2024"
+    year: "2024",
+    link: ""
   }
 ]
 

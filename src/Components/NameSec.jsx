@@ -1,9 +1,9 @@
 "use client";
-import { NameSectionData, scrollingSectionData } from "@/Data/Data";
+import { NameSectionData, scrollDatas, scrollingSectionData } from "@/Data/Data";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
-import { GiNinjaStar } from "react-icons/gi";
+import { IconCloudDemo } from "./IconsCloud";
 
 gsap.registerPlugin(ScrollTrigger);
 const NameSec = () => {
@@ -52,8 +52,11 @@ const NameSec = () => {
         </div>
 
         {/* The Three Model */}
-        <div className="md:w-1/2 w-full flex justify-end">
-           <GiNinjaStar ref= {shapeIs} className="text-[200px] md:text-[500px] text-[#9c517c] rotate-45"  />      
+        <div className="md:w-1/2 w-full flex flex-col items-center gap-1">
+        <span className="text-5xl uppercase md:text-8xl font-semibold">{scrollDatas.heading}</span>
+        <div>
+           <IconCloudDemo />
+        </div>
         </div>
       </div>
     </div>

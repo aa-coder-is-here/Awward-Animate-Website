@@ -1,6 +1,7 @@
 import { workHeading, WorkSection } from "@/Data/Data";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -49,12 +50,14 @@ const WorkSec = () => {
                 <span className="text-sm md:text-xl">{curElem.titleNum}</span>
                 <span className="text-2xl md:text-4xl font-[500]">{curElem.title}</span>
               </div>
-              <div className="flex items-center justify-center gap-2 md:w-42 md:h-16 h-12 w-12 rounded-full bg-white border border-black text-lg transition-all hover:bg-black duration-[0.3s] hover:-translate-y-[8px] hover:scale-[1.1] hover:text-white hover:shadow-2xl shadow-black cursor-pointer">
-                <span className="hidden md:flex">{curElem.btn}</span>
+              <Link href={curElem.link || "#"} className="flex items-center justify-center gap-2 md:w-42 md:h-16 h-12 w-12 rounded-full bg-white border border-black text-lg transition-all hover:bg-black duration-[0.3s] hover:-translate-y-[8px] hover:scale-[1.1] hover:text-white hover:shadow-2xl shadow-black cursor-pointer">
+                <span className="hidden md:flex">
+                  {curElem.btn}
+                </span>
                 <span>
                   <FaArrowRightLong />
                 </span>
-              </div>
+              </Link>
             </div>
         
             {/* Year mobile */}
