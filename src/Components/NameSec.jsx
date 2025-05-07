@@ -32,7 +32,7 @@ const NameSec = () => {
     })
   }, []);
   return (
-    <div ref={ParentDiv} className="w-full h-[95vh] md:h-[180vh] flex flex-col bg-[#f1f2f6] overflow-hidden md:overflow-visible">
+    <div ref={ParentDiv} className="w-full h-[95vh] md:h-[180vh] flex flex-col bg-[#f1f2f6]">
       {/* The Name Section */}
       <div
         ref={NameDiv}
