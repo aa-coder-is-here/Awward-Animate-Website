@@ -44,13 +44,13 @@ const Home = () => {
     return () => window.removeEventListener("load", handleLoad);
   },[])
 
-  // if (loading) {
-  //   return (
-  //     <div className="transition-all duration-75 flex items-center justify-center h-screen bg-black text-white text-2xl">
-  //       <Loader />
-  //     </div>
-  //   );
-  // }
+  if (loading) {
+    return (
+      <div className="transition-all duration-75 flex items-center justify-center h-screen bg-black text-white text-2xl">
+        <Loader />
+      </div>
+    );
+  }
   
 
   return (
