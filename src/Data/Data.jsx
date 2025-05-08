@@ -32,40 +32,41 @@ export const WorkSection = [
     titleNum: "[ 01 ]",
     title: "PuroPelle",
     btn: "View More",
-    img: "images/work1.png",
+    img: "images/work2.png",
     year: "2024",
     link: "https://www.puropelle.com/"
   },
   {
     titleNum: "[ 02 ]",
-    title: "EBCO",
+    title: "Tech Tone",
     btn: "View More",
-    img: "images/work2.png",
+    img: "images/lund10.jpeg",
     year: "2024",
+    link: "https://techtone.com.pk/"
   },
   {
     titleNum: "[ 03 ]",
-    title: "Fintori",
-    btn: "View More",
-    img: "images/work3.png",
-    year: "2024",
-    link: ""
-  },
-  {
-    titleNum: "[ 04 ]",
-    title: "Carewell ",
-    btn: "View More",
-    img: "images/work4.png",
-    year: "2024",
-    link: ""
-  },
-  {
-    titleNum: "[ 05 ]",
-    title: "ECommPulse",
+    title: "Wom Collection",
     btn: "View More",
     img: "images/work5.png",
     year: "2024",
-    link: ""
+    link: "https://womcollection.com/",
+  },
+  {
+    titleNum: "[ 04 ]",
+    title: "AA Ai",
+    btn: "View More",
+    img: "images/lund11.jpeg",
+    year: "2024",
+    link: "https://aa-ai-bot.netlify.app/"
+  },
+  {
+    titleNum: "[ 05 ]",
+    title: "Co Natural",
+    btn: "View More",
+    img: "images/lund12.jpeg",
+    year: "2024",
+    link: "https://conaturalintl.com/"
   }
 ]
 
@@ -77,36 +78,37 @@ export const ConsiderMeText = "Why Consider Me?"
 
 export const card = [
   {
-    title: "User Valetine",
-    emoji: "🤎",
-    des: "I make users happy and your KPIs happier. Great design isn’t just pretty— it gets results"
+    title: "Frontend Development",
+    emoji: "💻",
+    des: "I create seamless and user-friendly interfaces using React.js, ensuring a smooth user experience across devices."
   },
   {
-    title: "User Valetine",
-    emoji: "🤎",
-    des: "I make users happy and your KPIs happier. Great design isn’t just pretty— it gets results"
+    title: "Backend Development",
+    emoji: "⚙️",
+    des: "I build robust and scalable backend systems using Express.js, ensuring smooth communication between server and client."
   },
   {
-    title: "User Valetine",
-    emoji: "🤎",
-    des: "I make users happy and your KPIs happier. Great design isn’t just pretty— it gets results"
+    title: "CMS Development",
+    emoji: "📦",
+    des: "I manage and optimize CMS-based websites using Shopify, ensuring smooth content updates and smooth e-commerce experiences."
   },
   {
-    title: "User Valetine",
-    emoji: "🤎",
-    des: "I make users happy and your KPIs happier. Great design isn’t just pretty— it gets results"
+    title: "Database Management",
+    emoji: "🗃️",
+    des: "I ensure efficient data management with MongoDB and Mongoose, creating scalable and reliable data models for optimal performance."
   },
   {
-    title: "User Valetine",
-    emoji: "🤎",
-    des: "I make users happy and your KPIs happier. Great design isn’t just pretty— it gets results"
+    title: "UI/UX Design",
+    emoji: "🎨",
+    des: "I design intuitive and beautiful user interfaces with Tailwind CSS, focusing on simplicity and ease of use for the best user experience."
   },
   {
-    title: "User Valetine",
-    emoji: "🤎",
-    des: "I make users happy and your KPIs happier. Great design isn’t just pretty— it gets results"
+    title: "Web Performance Optimization",
+    emoji: "⚡",
+    des: "I improve website performance with the latest optimization techniques, ensuring faster loading times and a smoother experience for users."
   }
 ]
+
 
 // Growth Section Data is here
 export const GrowtHeading = "A Year of Growth";
@@ -117,31 +119,32 @@ export const GrowtPara = {
 
 export const GrowthDiv = [
   {
-    num: "45%", 
-    line: "Growth in number of clients",
+    num: "35%", 
+    line: "Web project growth",
     color: "bg-[#ffe6ec]"
   },
   {
-    num: "112k+", 
-    line: "Impacted New users",
+    num: "80k+", 
+    line: "Impacted users",
     color: "bg-[#ffc2d1]"
   },
   {
-    num: "29%", 
-    line: "Increased revenue",
+    num: "25%", 
+    line: "Traffic increase",
     color: "bg-[#feb3c7]"
   },
   {
-    num: "39%", 
-    line: "Boost in sales",
+    num: "30%", 
+    line: "Client conversion boost",
     color: "bg-[#ff8fab]"
   },
   {
-    num: "4.85/5", 
-    line: "Customer satisfaction",
+    num: "4.9/5", 
+    line: "Client satisfaction",
     color: "bg-[#fb6f92]"
   },
 ]
+
 
 // Marquee Div Text
 
@@ -154,26 +157,27 @@ export const GridData = [
     heading: "LinkedIn Testimonials",
   },
   {
-    heading: "Omkar Shinde",
-    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+    heading: "Omar Farooq",
+    des: "Ali’s expertise in web development made a huge difference in the performance and design of our website. His attention to detail and problem-solving skills were exceptional."
   },
   {
-    heading: "Omkar Shinde",
-    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+    heading: "Hassan Shah",
+    des: "Ali is a true professional. His ability to optimize and streamline our website’s backend systems improved our site’s speed and overall user experience."
   },
   {
-    heading: "Omkar Shinde",
-    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+    heading: "Zayd Ali",
+    des: "Ali’s work on our e-commerce platform was outstanding. His skills in frontend and backend development allowed us to achieve great results and improve conversion rates."
   },
   {
-    heading: "Omkar Shinde",
-    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+    heading: "Yasir Khan",
+    des: "Ali’s contributions to our project were invaluable. He worked diligently to enhance our website’s functionality, leading to better user engagement and increased sales."
   },
   {
-    heading: "Omkar Shinde",
-    des: "Sai's contributions to our project have been invaluable. His attention to detail, creativity, and problem-solving skills have significantly contributed to the success of our products."
+    heading: "Ibrahim Malik",
+    des: "Working with Ali was an amazing experience. His creative approach and technical expertise helped us create a modern, user-friendly website that truly reflects our brand."
   }
 ]
+
 
 export const TextDiv = [
   {Text: "Companies have"},
@@ -187,33 +191,45 @@ export const TextDiv = [
 // PrtFolio Card Data
 
 export const CardPortHead = {
-  heading: "PORTFOLIO",
+  heading: "Services",
   para: "Recognized by industry leaders, this portfolio has earned acclaim for both design and execution by Awwwards and CSS Design Awards Jury"
 } 
 
 export const DataPort = [
   {
-    id: "1",
-    heading: "TecH",
-    aphla: "T",
-    innerFeature: ["WebGL Development","Web Development","Unity/Unreal","Interactive Installations","VR/AR"]
-  },
-  {
     id: "2",
-    heading: "TecH",
-    aphla: "T",
-    innerFeature: ["WebGL Development","Web Development","Unity/Unreal","Interactive Installations","VR/AR"]
+    heading: "Shopify",
+    aphla: "S",
+    innerFeature: [
+      "Custom Coded Sections",
+      "Speed Optimization",
+      "Theme Customization",
+      "App Integration",
+      "Conversion-Focused Design"
+    ]
   },
   {
     id: "3",
-    heading: "TecH",
-    aphla: "T",
-    innerFeature: ["WebGL Development","Web Development","Unity/Unreal","Interactive Installations","VR/AR"]
-  },
+    heading: "MERN",
+    aphla: "M",
+    innerFeature: [
+      "Next.js Development",
+      "MongoDB + Mongoose",
+      "Express.js Backend",
+      "React.js Frontend",
+      "REST API Integration"
+    ]
+  },  
   {
     id: "4",
-    heading: "TecH",
-    aphla: "T",
-    innerFeature: ["WebGL Development","Web Development","Unity/Unreal","Interactive Installations","VR/AR"]
-  },
+    heading: "CMS",
+    aphla: "C",
+    innerFeature: [
+      "Custom Shopify Sections",
+      "Shopify Liquid Development",
+      "WordPress Frontend Customization",
+      "WooCommerce Functionality Integration",
+      "Responsive CMS Web Design"
+    ]
+  }  
 ]
