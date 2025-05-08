@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Home | Ali Arif",
-  description: "We will decide it later",
+  description: "Praised by industry leaders, this portfolio stands out for its exceptional design and flawless execution.",
 };
 
 export default function RootLayout({ children }) {

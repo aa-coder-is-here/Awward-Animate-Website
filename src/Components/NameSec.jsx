@@ -16,7 +16,7 @@ const NameSec = () => {
         trigger: NameDiv.current,
         start: "top 40%",
         endTrigger: ParentDiv.current,
-        end: window.innerWidth > 600 ? "bottom+=280 bottom" : "bottom+=330 bottom",
+        end: window.innerWidth > 600 ? "bottom+=300 bottom" : "bottom+=330 bottom",
         scrub: 99,
         pinSpacing: false,
         pinSpacer: false,
@@ -58,7 +58,7 @@ const NameSec = () => {
         {/* The Three Model */}
         <div className="md:w-1/2 w-full flex flex-col items-center gap-1">
         <span className="text-2xl uppercase md:text-5xl text-center font-semibold">{scrollDatas.heading}</span>
-        <div className="relative w-full h-[100vh] md:h-full">
+        <div className="relative w-full h-[120vh] md:h-full">
            <Globe />
         </div>
         </div>
