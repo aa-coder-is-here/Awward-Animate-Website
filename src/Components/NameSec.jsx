@@ -47,15 +47,19 @@ const NameSec = () => {
       <div className="w-full min-h-3/6 h-auto flex md:justify-between gap-[100px] md:gap-0 px-6 md:px-24 mt-16 flex-col md:flex-row overflow-hidden">
         {/* Text Block */}
         <div className="w-full md:w-1/2 flex flex-col">
-          <span>{scrollingSectionData.line1}</span>
-          <span>{scrollingSectionData.line2}</span>
+          <span className="font-medium md:text-xl">{scrollingSectionData.line1}</span>
+          <span className="font-medium md:text-xl">{scrollingSectionData.line2}</span>
+
+          <div>
+            <a href="https://cdn.shopify.com/s/files/1/0921/2248/0960/files/Ali_Arif_-_Resume_-_Professional_Web_Devolper_1.pdf?v=1746696385" download={true} className="flex items-center justify-center gap-2 md:w-48 md:h-14 h-12 w-12 rounded-full bg-white border border-black text-lg transition-all hover:bg-black duration-[0.3s] hover:-translate-y-[8px] hover:scale-[1.1] hover:text-white hover:shadow-2xl shadow-black cursor-pointer mt-8">Download this</a>
+          </div>
         </div>
 
         {/* The Three Model */}
         <div className="md:w-1/2 w-full flex flex-col items-center gap-1">
         <span className="text-2xl uppercase md:text-5xl text-center font-semibold">{scrollDatas.heading}</span>
         <div className="relative w-full h-[100vh] md:h-full">
-          {/* { <Globe />} */}
+          { <Globe />}
         </div>
         </div>
       </div>

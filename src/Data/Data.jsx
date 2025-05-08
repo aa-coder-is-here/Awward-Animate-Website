@@ -10,8 +10,8 @@ export const MarqueeText = "View Projects";
 export const NameSectionData = "Ali . Arif";
 // Scroll Section Text
 export const scrollingSectionData = {
-  line1: "Welcome to my portfolio! My designs",
-  line2: "have driven an impact of over $850k+",
+  line1: "Hey there! I help brands grow with fast, user-friendly",
+  line2: "websites built using CMS, Shopify, and modern web stacks."
 }
 
 export const scrollDatas = {
