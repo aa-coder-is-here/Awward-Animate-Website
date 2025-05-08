@@ -192,7 +192,7 @@ export const TextDiv = [
 
 export const CardPortHead = {
   heading: "Services",
-  para: "Recognized by industry leaders, this portfolio has earned acclaim for both design and execution by Awwwards and CSS Design Awards Jury"
+  para: "Praised by industry leaders, this portfolio stands out for its exceptional design and flawless execution."
 } 
 
 export const DataPort = [
