@@ -16,7 +16,7 @@ const ImageMar = () => {
   },[])
   return (
     <div ref={imgSlide} className="w-full h-60 bg-black relative z-[-1]">
-      <Marquee pauseOnHover speed={90} className="w-full h-full flex">
+      <Marquee pauseOnHover = {true} speed={90} className="w-full h-full flex">
       {
         Array(9).fill("").map((_ , index)=>{
           return <div key={index}>

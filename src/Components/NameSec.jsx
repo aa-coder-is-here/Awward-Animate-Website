@@ -55,7 +55,7 @@ const NameSec = () => {
         <div className="md:w-1/2 w-full flex flex-col items-center gap-1">
         <span className="text-2xl uppercase md:text-5xl text-center font-semibold">{scrollDatas.heading}</span>
         <div className="relative w-full h-[100vh] md:h-full">
-           <Globe />
+          {/* { <Globe />} */}
         </div>
         </div>
       </div>
