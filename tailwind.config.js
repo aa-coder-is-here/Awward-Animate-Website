@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         clash: ['var(--font-clash)'],
       },
+      screens: {
+        'chota': {'max': '350px'},
+      }
     },
   },
   plugins: [],

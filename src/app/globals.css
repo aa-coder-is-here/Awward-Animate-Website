@@ -53,6 +53,11 @@ body{
 .flip-back {
   transform: rotateY(180deg);
 }
+@media (max-width: 300px) {
+  .head-con{
+    font-size: 30px;
+  }
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
