@@ -45,7 +45,7 @@ const TextHover = () => {
   return (
     <div className="w-full h-auto bg-[#f1f2f6] overflow-hidden">
       {/* Space Div */}
-      <div className="w-full h-[60vh]"></div>
+      <div className="w-full h-[40vh] md:h-[60vh]"></div>
 
       {/* Text Div */}
       <div className="w-full h-[40vh] md:h-screen flex flex-col items-center relative">

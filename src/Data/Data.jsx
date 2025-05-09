@@ -3,7 +3,7 @@ export const Logo = "A.L.I";
 // Navbar
 export const NavbarContent = ["Projects" , "Why Me" , "Achievements"];
 // Bottom Section Text
-export const BottomText = "Hello It's me Ali";
+export const BottomText = "Available For Hire";
 // Marquee cursor Text
 export const MarqueeText = "View Projects";
 // Name Section
@@ -11,7 +11,8 @@ export const NameSectionData = "Ali . Arif";
 // Scroll Section Text
 export const scrollingSectionData = {
   line1: "Hey there! I help brands grow with fast, user-friendly",
-  line2: "websites built using CMS, Shopify, and modern web stacks."
+  line2: "websites built using CMS, Shopify, and modern web stacks.",
+  btnText: "Download Resume"
 }
 
 export const scrollDatas = {

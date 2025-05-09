@@ -34,7 +34,7 @@ const PortCard = () => {
           <div
             ref={(el) => (cards.current[index] = el)}
             key={curElem.id}
-            className="w-[300px] md:w-[520px] h-[550px] bg-black cursor-pointer rounded-3xl"
+            className="w-[300px] md:w-[520px] h-[400px] md:h-[550px] bg-black cursor-pointer rounded-3xl"
           >
             <div className="bg-white flex justify-between items-center flex-col md:px-8 px-4 py-2 md:py-6 h-full">
               {/* Heading */}
