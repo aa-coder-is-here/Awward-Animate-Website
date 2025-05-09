@@ -32,7 +32,7 @@ const Growth = () => {
   return (
     <section
       id="gro"
-      className="w-full md:min-h-screen bg-[#f1f2f6] overflow-hidden"
+      className="w-full md:min-h-screen bg-[#f1f2f6] overflow-hidden mt-24 md:mt-0"
     >
       {/* Heading Section */}
       <div className="w-full h-[20vh] md:h-[75vh] flex justify-end md:justify-center items-center flex-col gap-4">
