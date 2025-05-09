@@ -114,7 +114,7 @@ const Navbar = () => {
     }else{
       tlref.current.reverse();
     }
-    console.log("I'm Loaded Fuck Yeah")
+    console.log(`Ah Bruuhhh how's the website yo dev homiee :) \n Let's Connect on LinkedIn https://www.linkedin.com/in/im-ali-arif/`)
   },[isOpen])
   const checkHref = (index) => {
     switch (index) {

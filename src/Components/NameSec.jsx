@@ -16,7 +16,7 @@ const NameSec = () => {
         trigger: NameDiv.current,
         start: "top 40%",
         endTrigger: ParentDiv.current,
-        end: window.innerWidth > 600 ? "bottom+=370 bottom" : "bottom+=330 bottom",
+        end: window.innerWidth > 600 ? "bottom+=310 bottom" : "bottom+=370 bottom",
         scrub: 99,
         pinSpacing: false,
         pinSpacer: false,
