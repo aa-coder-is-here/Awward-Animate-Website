@@ -72,7 +72,7 @@ const TextHover = () => {
           TextDiv.map((curElem, index) => (
             <span
               key={index}
-              className="text-3xl md:text-9xl uppercase font-semibold relative z-[1]"
+              className="text-3xl md:text-8xl 2xl:text-9xl uppercase font-semibold relative z-[1]"
               onMouseEnter={() => handleHover(index, "enter")}
               onMouseLeave={() => handleHover(index, "leave")}
               ref={(el) => textRefs.current[index] = el}

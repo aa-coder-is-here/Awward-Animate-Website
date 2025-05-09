@@ -35,7 +35,7 @@ const WorkSec = () => {
     <section id="work" className="w-full h-auto bg-[#f1f2f6]">
       {/* Heading Section is here */}
       <div className="w-full flex justify-center items-center">
-          <span className="text-[22px] font-[700] md:text-[80px] md:font-[600] lg:text-[100px] uppercase md:tracking-wide">
+          <span className="text-[22px] font-[700] md:text-[80px] md:font-[600] lg:text-[90px] 2xl:text-[100px] uppercase md:tracking-wide">
             {workHeading}
           </span>
         </div>

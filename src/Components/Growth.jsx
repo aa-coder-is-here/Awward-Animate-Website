@@ -36,7 +36,7 @@ const Growth = () => {
     >
       {/* Heading Section */}
       <div className="w-full h-[20vh] md:h-[75vh] flex justify-end md:justify-center items-center flex-col gap-4">
-        <span className="text-3xl chota:text-4xl md:text-9xl uppercase font-semibold">
+        <span className="text-3xl chota:text-4xl 2xl:text-9xl md:text-8xl uppercase font-semibold">
           {GrowtHeading}
         </span>
         <div className="flex flex-col items-center px-6 md:px-0">

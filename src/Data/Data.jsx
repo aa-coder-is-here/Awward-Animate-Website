@@ -228,9 +228,9 @@ export const DataPort = [
     innerFeature: [
       "Custom Shopify Sections",
       "Shopify Liquid Development",
-      "WordPress Frontend Customization",
-      "WooCommerce Functionality Integration",
-      "Responsive CMS Web Design"
+      "Frontend Customization",
+      "WooCommerce Integration",
+      "Responsive Web Design"
     ]
   }  
 ]

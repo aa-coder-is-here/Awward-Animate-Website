@@ -164,7 +164,7 @@ const Navbar = () => {
     </div>
 
     {/* Mobile Header  */}
-    <div className={`w-full h-screen bg-black fixed top-0 left-0 px-12 py-6 origin-right scale-x-0 z-[2]`} ref={NavBar}>
+    <div className={`w-full h-screen bg-black fixed top-0 left-0 px-12 py-6 origin-right scale-x-0 z-[999]`} ref={NavBar}>
       {/* Icons wala Span */}
       <span ref={cross} className=" text-white text-3xl cursor-pointer flex justify-end origin-center" onClick={()=>{
             setOpen(!isOpen)
