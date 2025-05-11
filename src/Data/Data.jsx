@@ -1,3 +1,5 @@
+// Loading Page Text
+export const LoadText = "Hello it's me Ali Arif"
 // Logo
 export const Logo = "A.L.I";
 // Navbar
