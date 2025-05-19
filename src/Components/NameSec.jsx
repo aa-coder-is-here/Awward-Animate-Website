@@ -66,7 +66,7 @@ const NameSec = () => {
 
           <div>
             <a
-              href="https://cdn.shopify.com/s/files/1/0610/0126/9323/files/Ali_Arif_-_Resume.pdf?v=1746992495"
+              href="https://cdn.shopify.com/s/files/1/0685/8663/5440/files/Mine-Resume.pdf?v=1747657329"
               download={true}
               className="flex items-center justify-center gap-2 w-48 h-14 rounded-full bg-white border border-black text-lg transition-all hover:bg-black duration-[0.3s] hover:-translate-y-[8px] hover:scale-[1.1] hover:text-white hover:shadow-2xl shadow-black cursor-pointer mt-8"
             >
